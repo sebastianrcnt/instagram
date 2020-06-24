@@ -2,9 +2,9 @@ import styled from "styled-components";
 import React from 'react'
 import StoryProfilePicture from "./StoryProfilePicture";
 import StoryUserIdCaption from "./StoryUserIdCaption";
-import SizedBox from "../../Utils/SizedBox";
+import SizedBox from "../Utils/SizedBox";
 
-export default function StoryContainer(props: Prop) {
+export default function StoryContainer(_: Prop) {
 	return (
 		<Wrapper>		
 			<StoryProfilePicture />
