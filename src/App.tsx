@@ -6,9 +6,9 @@ import Home from "./Components/HomePage/Home";
 function App() {
   return (
     <Wrapper className="App">
-      <Content>
+      <ContentWrapper>
         <Home />
-      </Content>
+      </ContentWrapper>
       <BottomAppBar />
     </Wrapper>
   );
@@ -18,7 +18,7 @@ const Wrapper = styled.div`
   height: 100%;
 `;
 
-const Content = styled.div`
+const ContentWrapper = styled.div`
   height: calc(100% - 50px);
 `;
 
