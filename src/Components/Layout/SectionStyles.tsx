@@ -3,8 +3,11 @@ import styled from "styled-components";
 
 
 export const BodySection = styled.div`
-  flex: 1;
-  overflow: scroll;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 `
 
 export const BarSection = styled.div`

@@ -36,6 +36,8 @@ const Wrapper = styled.div`
 `;
 
 export const AppBar = styled(BarSection)`
+  position: fixed;
+  top: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -50,6 +52,8 @@ export const AppBarTitle = styled.div`
 `
 
 export const BottomAppBar = styled(BarSection)`
+  position: fixed;
+  bottom: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
